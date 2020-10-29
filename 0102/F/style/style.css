@@ -1,0 +1,71 @@
+body{
+	background:#000;
+	font-family: 'Grenze Gotisch', cursive;
+	font-size: 12px
+	
+}
+
+.conteiner{
+	width:50%;
+	margin: 0 auto;
+	border:2px dashed #000;
+}
+.conteiner{
+	top: 0px;
+	right: 0px;
+	bottom: 0px;
+	left: 0px;
+	background-image: url('https://upload.wikimedia.org/wikipedia/ru/e/e5/Oscar_statuette_for_Oscar_records.jpg');
+	background-size: cover;
+	background-position: top center;
+}
+.content_conteiner{
+	margin-top:30px;
+	margin-left:20px;
+	margin-right:20px;
+}
+
+.content{
+	margin-top:25px;
+	margin-bottom:25px;
+}
+
+.banner{
+	margin:0px auto;
+	text-align:center;
+}
+
+.img__banner{
+	box-sizing: border-box;
+	margin: 0 auto;
+	height: 225px;
+	width:100%;
+	max-width: 640px;
+	border: 3px solid grey;
+}
+
+h1{
+	margin:0;
+	margin-left:23px;
+	margin-right:23px;
+	font-size:30px;
+	font-weight: bold;
+	text-transform:uppercase;
+	padding-left:25px;
+	border-left:4px solid #000;
+	border-bottom:2px solid #000;
+}
+
+p{
+	margin:0;
+	margin-top:15px;
+	margin-left:55px;
+	margin-right:100px;
+	padding:10px 13px;
+	border:2px dashed #000;
+	background-color:rgb(180,180,180);
+}
+
+a:hover {
+  color: blue;
+}
