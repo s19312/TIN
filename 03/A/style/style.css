@@ -1,0 +1,89 @@
+body{
+	font-family: 'Grenze Gotisch', cursive;
+}
+
+h1{
+	margin:0;
+}
+header{
+	text-align:center;
+}
+.banner_night{
+	margin-top:20px;
+	max-width:350px;
+	height:180px;
+	box-shadow: 5px 5px grey;
+	transform: rotate(5deg);
+	border-radius:10px;
+}
+.content{
+	display:flex;
+	flex-direction:row;
+}
+.gallery{
+	width:100%;
+	max-width:300px;
+	display:flex;
+	flex-direction:column;
+}
+
+.gallery_night{
+	width:100%;
+	max-width:300px;
+}
+
+.info{
+	width:100%;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.column{
+	max-width:285px;
+	font-size:13px;
+	margin-right:10px;
+}
+
+.text_img{
+	margin-right:15px;
+	margin-top:15px;
+	margin-bottom:10px;
+	width:100%;
+	max-width:200px;
+	height:120px;
+	float:left;
+}
+
+.text_img:nth-child(2){
+	height:250px;
+}
+.quote{
+	font-weight:bold;
+	font-size:15px;
+	color:red;
+	width:100%;
+	max-width:170px;
+	margin-top:15px;
+	margin-left:15px;
+	margin-bottom:15px;
+	float:right;
+}
+
+footer{
+	font-size:14;
+	font-weight:bold;
+	text-align:center;
+}
+
+
+@media only screen and (max-width: 800px) {
+	
+	.gallery{
+		width:100%;
+		max-width:300px;
+}
+  .content{
+	  display:flex;
+	  flex-direction:column-reverse;
+  }
+}
